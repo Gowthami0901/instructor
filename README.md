@@ -1,9 +1,6 @@
 # Instructor
 
 This document provides a detailed overview of various AI model integrations supported by Instructor, focusing on performance, pricing, and suitability for data extraction tasks. It aims to guide developers in selecting the most appropriate integration based on their specific needs.
-# Instructor Integrations Summary
-
-This document provides a comprehensive overview of various AI model integrations supported by Instructor, focusing on performance, pricing, and suitability for data extraction tasks. It aims to guide developers in selecting the most appropriate integration based on their specific needs.
 
 ## Table of Contents
 - [OpenAI](#openai)
@@ -13,18 +10,7 @@ This document provides a comprehensive overview of various AI model integrations
 
 ---
 
-## Integrations Overview
-
-### OpenAI
-
-**Overview**: OpenAI offers advanced language models, including GPT-3.5 and GPT-4, renowned for their high-quality text generation capabilities.
-
-**Features**:
-- **High-Quality Text Generation**: 
-
----
-
-## 1. OpenAI
+### 1. OpenAI
 
 **Overview**: OpenAI offers advanced language models, including GPT-3.5 and GPT-4, renowned for their high-quality text generation capabilities.
 
@@ -46,7 +32,7 @@ This document provides a comprehensive overview of various AI model integrations
 - [Generating Synthetic Data with OpenAI's Batch API](https://python.useinstructor.com/examples/batch_job_oai/)
 ---
 
-## 2. Cohere
+### 2. Cohere
 
 **Overview**: Cohere specializes in natural language processing, offering models optimized for text generation and understanding.
 
@@ -68,7 +54,7 @@ This document provides a comprehensive overview of various AI model integrations
 
 ---
 
-## 3. Google Cloud Vertex AI
+### 3. Google Cloud Vertex AI
 
 **Overview**: Google Cloud's Vertex AI is a comprehensive machine learning platform that enables developers to build, deploy, and scale ML models, including advanced language models like PaLM and Gemini.
 
@@ -91,7 +77,7 @@ This document provides a comprehensive overview of various AI model integrations
 
 ---
 
-## 4. Ollama
+### 4. Ollama
 
 **Overview**: Ollama is an open-source platform that enables developers to run AI models locally, providing an alternative to cloud-based solutions.
 
