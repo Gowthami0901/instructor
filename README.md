@@ -21,7 +21,17 @@ This document provides a detailed overview of various AI model integrations supp
 
 **Performance**: Delivers superior performance in understanding and generating human-like text, making it suitable for complex NLP tasks.
 
-**Pricing**: Operates on a usage-based pricing model. Costs can accumulate with high-volume usage, so it's essential to assess project needs and budget accordingly.
+**Pricing**: OpenAI operates on a usage-based pricing model with both free and paid options:
+- **Free Tier**: OpenAI provides a free tier with limited access to their models (e.g., GPT-3.5). This free tier is typically capped at a certain number of tokens or API calls per month.
+ 
+- **Paid Version**: Pricing for paid access to models like GPT-4 is based on the number of tokens processed. The exact cost depends on the model used:
+  - **GPT-3.5**: Lower cost per token.
+  - **GPT-4**: Higher cost per token, especially for larger inputs and outputs.
+  - Additional charges may apply for specific services like fine-tuning models or using advanced features.
+
+**Free Tier Usage**: 
+- For GPT-3.5, the free tier generally provides access to a certain number of tokens (e.g., around 500,000 tokens per month).
+- For GPT-4, the free access might be more restricted or capped at a much lower token count.
 
 **Use Case Suitability**: Best suited for projects requiring high-quality text generation and understanding, such as virtual assistants, content generation, and sophisticated data extraction tasks.
 
@@ -43,7 +53,12 @@ This document provides a detailed overview of various AI model integrations supp
 
 **Performance**: Cohere's models are efficient and effective, particularly in tasks involving text classification, semantic search, and content generation.
 
-**Pricing**: Offers a free tier suitable for light usage, with paid plans scaling based on usage and required features.
+**Pricing**: Cohere offers both free and paid plans:
+- **Free Tier**: Cohere provides a free plan for light usage, typically offering a limited number of API calls or token usage per month. This is great for small-scale applications, development, and experimentation. The free tier usually offers up to a few million tokens per month, which is ideal for testing and small-scale applications.
+
+- **Paid Plans**: 
+  - **Standard Plan**: Based on token usage, and can scale depending on the number of API calls made.
+  - **Enterprise Plan**: Offers customized pricing for large-scale usage, with additional features like priority support and advanced model customization.
 
 **Use Case Suitability**: Ideal for developers seeking cost-effective solutions for tasks like text classification, semantic search, and multilingual applications.
 
@@ -65,7 +80,19 @@ This document provides a detailed overview of various AI model integrations supp
 
 **Performance**: Delivers robust performance suitable for enterprise-level applications, handling complex tasks efficiently.
 
-**Pricing**: Pricing is usage-dependent and can become significant with increased demand. Detailed pricing information is provided on the Google Cloud pricing page.
+**Pricing**: Google Cloud Vertex AI offers a flexible pricing model:
+- **Free Tier**: Google Cloud offers a free tier for Vertex AI, which typically includes:
+  - A certain amount of free usage for AI training and inference.
+  - Limited access to certain services like AutoML and some machine learning models.
+  - **Free Trial**: Google Cloud provides $300 in free credits for new users, which can be used for any Google Cloud service, including Vertex AI. The credits are valid for 90 days after activation.
+  
+- **Paid Version**: 
+  - **Pay-As-You-Go**: You are charged based on the services you use, such as training jobs, model deployment, and AI inference. Pricing is typically charged per compute hour or per API call, depending on the resource consumed.
+  - **Custom Pricing**: For large-scale enterprise needs, Google Cloud offers custom pricing based on usage and requirements.
+
+**Free Tier Usage**: 
+- Vertex AI’s free tier typically allows access to limited compute resources and models for small-scale training and experimentation.
+- The $300 free trial credit is applicable to any Vertex AI services and can be used for training and model deployment.
 
 **Use Case Suitability**: Best suited for enterprises requiring scalable and integrated machine learning solutions, especially those already utilizing the Google Cloud ecosystem.
 
@@ -88,7 +115,12 @@ This document provides a detailed overview of various AI model integrations supp
 
 **Performance**: Performance is contingent on local hardware capabilities. With adequate resources, Ollama can handle a variety of AI tasks effectively.
 
-**Pricing**: As an open-source solution, Ollama is free to use. However, deploying models locally may incur hardware and operational costs.
+**Pricing**: Ollama is an open-source platform, and as such, it is free to use:
+- **Free Version**: Ollama’s core functionality is free, allowing developers to deploy and run AI models locally without any API calls or usage fees.
+- **Hardware and Operational Costs**: While the software itself is free, users need to provide their own hardware infrastructure to run the models. This can incur costs depending on the scale of the deployment (e.g., servers, GPUs, electricity).
+  
+**Free Tier Usage**: 
+- Since Ollama is open-source, there are no usage limits for the software itself. However, users are responsible for their local hardware and resources.
 
 **Use Case Suitability**: Ideal for developers and organizations prioritizing data privacy, customization, and cost savings, and who have the necessary technical expertise and infrastructure.
 
